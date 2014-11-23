@@ -1,0 +1,107 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="WebServerControls.WebServerControls" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title> INT422 - Class Exercises</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <style>
+        .myNavStyle{
+            background-color:#F2F2F2;
+            border: 1px solid;
+            -webkit-border-radius: 12px; 
+            -moz-border-radius: 12px; 
+            border-radius: 12px; 
+        }
+        .myContentStyle{
+            background-color:#F2F2F2;
+            border: 1px solid;
+            -webkit-border-radius: 12px; 
+            -moz-border-radius: 12px; 
+            border-radius: 12px; 
+            padding:15px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="container">
+        <br />
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-3 myNavStyle">
+                <h4>Back to Portfolio</h4>
+                <h4><a href="int422.aspx">INT422 - In Class Exercises</a> </h4>
+                <ul>
+                    <li><h4>C# Types and Operations</h4>
+                        <ul>
+                            <li><a href="chicken.aspx">Add Chichen Eggs</a></li>
+                            <li><a href="add.aspx">Double Value Addition</a></li>
+                            <li><a href="addmul.aspx">Addition or Multiplication</a></li>
+                            <li><a href="Conversion.aspx">Temperature Conversion</a></li>
+                            <li><a href="carpet.aspx">Carpet Price</a></li>
+                            <li><a href="phone.aspx">Phone Price Tax</a></li>
+                            <li><a href="hours.aspx">Work Hours Pay</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><h4>C# if else statements</h4>
+                        <ul>
+                            <li><a href="iq.aspx">IQ Level</a></li>
+                            <li><a href="doglot.aspx">Barking Lot Fees</a></li>
+                            <li><a href="woodsign.aspx">House Sign Prices</a></li>
+                        </ul>
+                    </li>
+                    <li><h4>C# Switch statement</h4>
+                        <ul>
+                            <li><a href="numForWeek.aspx">Number Weekday</a></li>
+                            <li><a href="YogaStudio.aspx">Yoga Class Names</a></li>
+                        </ul>
+                    </li>
+                    <li><h4>C# Loops</h4>
+                        <ul>
+                            <li><a href="loops.aspx">Loops Behaviours</a></li>
+                            <li><a href="yaleauction.aspx">Yale Online Auctions</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <h4><a href="Default.aspx">Self Study</a> </h4>
+                <ul>
+                    <li><h4>C# Arrays</h4></li>
+                        <ul>
+                            <li><a href="array.aspx">Random Number Index</a></li>
+                        </ul>
+                    <li><h4>C# References</h4></li>
+                        <ul>
+                            <li><a href="generalstructure.aspx">General Structure</a></li>
+                            <li><a href="codingconventions.aspx">Coding Conventions</a></li>
+                        </ul>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-1">&nbsp;</div>
+            <div class="col-xs-12 col-md-8 ">
+                <div class="myContentStyle">
+                    <asp:contentplaceholder id="Main" runat="server" />
+                </div>
+                <br />
+                <div class="myContentStyle">
+                    <asp:contentplaceholder id="CodeWindow" runat="server" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-12" style="text-align:center; "><hr /><h6>Copyright 2002-2014 by Maharaj Santhir. All Rights Reserved.</h6></div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

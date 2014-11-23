@@ -57,18 +57,219 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="Bootstrap\css\bootstrap.css.map" />
+    <Content Include="Bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Bootstrap\css\bootstrap.css" />
+    <Content Include="Bootstrap\css\bootstrap.min.css" />
+    <Content Include="Bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Bootstrap\js\bootstrap.js" />
+    <Content Include="Bootstrap\js\bootstrap.min.js" />
+    <Content Include="Default.aspx" />
+    <Content Include="int422\add.aspx" />
+    <Content Include="int422\addMul.aspx" />
+    <Content Include="int422\array.aspx" />
+    <Content Include="int422\carpet.aspx" />
+    <Content Include="int422\chicken.aspx" />
+    <Content Include="int422\codingconventions.aspx" />
+    <Content Include="int422\Conversion.aspx" />
+    <Content Include="int422\doglot.aspx" />
+    <Content Include="int422\generalstructure.aspx" />
+    <Content Include="int422\Global.asax" />
+    <Content Include="int422\hours.aspx" />
+    <Content Include="int422\int422.aspx" />
+    <Content Include="int422\iq.aspx" />
+    <Content Include="int422\loops.aspx" />
+    <Content Include="int422\numForWeek.aspx" />
+    <Content Include="int422\phone.aspx" />
+    <Content Include="int422\woodsign.aspx" />
+    <Content Include="int422\yaleauction.aspx" />
+    <Content Include="int422\YogaStudio.aspx" />
+    <Content Include="selfStudy\array.aspx" />
+    <Content Include="selfStudy\codingconventions.aspx" />
+    <Content Include="selfStudy\generalstructure.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\add.aspx.cs">
+      <DependentUpon>add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\add.aspx.designer.cs">
+      <DependentUpon>add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\addMul.aspx.cs">
+      <DependentUpon>addMul.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\addMul.aspx.designer.cs">
+      <DependentUpon>addMul.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\array.aspx.cs">
+      <DependentUpon>array.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\array.aspx.designer.cs">
+      <DependentUpon>array.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\carpet.aspx.cs">
+      <DependentUpon>carpet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\carpet.aspx.designer.cs">
+      <DependentUpon>carpet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\chicken.aspx.cs">
+      <DependentUpon>chicken.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\chicken.aspx.designer.cs">
+      <DependentUpon>chicken.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\codingconventions.aspx.cs">
+      <DependentUpon>codingconventions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\codingconventions.aspx.designer.cs">
+      <DependentUpon>codingconventions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\Conversion.aspx.cs">
+      <DependentUpon>Conversion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\Conversion.aspx.designer.cs">
+      <DependentUpon>Conversion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\doglot.aspx.cs">
+      <DependentUpon>doglot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\doglot.aspx.designer.cs">
+      <DependentUpon>doglot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\generalstructure.aspx.cs">
+      <DependentUpon>generalstructure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\generalstructure.aspx.designer.cs">
+      <DependentUpon>generalstructure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="int422\hours.aspx.cs">
+      <DependentUpon>hours.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\hours.aspx.designer.cs">
+      <DependentUpon>hours.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\int422.aspx.cs">
+      <DependentUpon>int422.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\int422.aspx.designer.cs">
+      <DependentUpon>int422.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\iq.aspx.cs">
+      <DependentUpon>iq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\iq.aspx.designer.cs">
+      <DependentUpon>iq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\loops.aspx.cs">
+      <DependentUpon>loops.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\loops.aspx.designer.cs">
+      <DependentUpon>loops.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\numForWeek.aspx.cs">
+      <DependentUpon>numForWeek.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\numForWeek.aspx.designer.cs">
+      <DependentUpon>numForWeek.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\phone.aspx.cs">
+      <DependentUpon>phone.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\phone.aspx.designer.cs">
+      <DependentUpon>phone.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\woodsign.aspx.cs">
+      <DependentUpon>woodsign.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\woodsign.aspx.designer.cs">
+      <DependentUpon>woodsign.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\yaleauction.aspx.cs">
+      <DependentUpon>yaleauction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\yaleauction.aspx.designer.cs">
+      <DependentUpon>yaleauction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="int422\YogaStudio.aspx.cs">
+      <DependentUpon>YogaStudio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="int422\YogaStudio.aspx.designer.cs">
+      <DependentUpon>YogaStudio.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="selfStudy\array.aspx.cs">
+      <DependentUpon>array.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="selfStudy\array.aspx.designer.cs">
+      <DependentUpon>array.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="selfStudy\codingconventions.aspx.cs">
+      <DependentUpon>codingconventions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="selfStudy\codingconventions.aspx.designer.cs">
+      <DependentUpon>codingconventions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="selfStudy\generalstructure.aspx.cs">
+      <DependentUpon>generalstructure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="selfStudy\generalstructure.aspx.designer.cs">
+      <DependentUpon>generalstructure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="selfStudy\generalstructure.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
