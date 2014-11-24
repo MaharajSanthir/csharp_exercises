@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/WebServerControls.master" CodeBehind="yaleauction.aspx.cs" Inherits="WebServerControls.yaleauction" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.master" CodeBehind="yaleauction.aspx.cs" Inherits="WebServerControls.yaleauction" %>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="head" Runat="Server">
    
@@ -26,5 +26,5 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CodeWindow" Runat="Server">
-    <script src="http://gist-it.appspot.com/https://github.com/MaharajSanthir/portfolio/blob/master/AspNetCsharp/WebServerControls/yaleauction.aspx.cs"></script>
+    <script src="http://gist-it.appspot.com/https://github.com/MaharajSanthir/csharp_exercises/blob/master/csharp_exercises/int422/yaleauction.aspx.cs"></script>
 </asp:Content>

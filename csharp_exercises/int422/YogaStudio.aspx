@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/WebServerControls.master" CodeBehind="YogaStudio.aspx.cs" Inherits="WebServerControls.YogaStudio" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.master" CodeBehind="YogaStudio.aspx.cs" Inherits="WebServerControls.YogaStudio" %>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="head" Runat="Server">
    
@@ -37,6 +37,6 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CodeWindow" Runat="Server">
-    <script src="http://gist-it.appspot.com/https://github.com/MaharajSanthir/portfolio/blob/master/AspNetCsharp/WebServerControls/YogaStudio.aspx.cs"></script>
+    <script src="http://gist-it.appspot.com/https://github.com/MaharajSanthir/csharp_exercises/blob/master/csharp_exercises/int422/YogaStudio.aspx.cs"></script>
 </asp:Content>
     

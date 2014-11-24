@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/WebServerControls.master"  Inherits="doglot" Codebehind="doglot.aspx.cs" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.master"  Inherits="doglot" Codebehind="doglot.aspx.cs" %>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="head" Runat="Server">
    
@@ -23,5 +23,5 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CodeWindow" Runat="Server">
-    <script src="http://gist-it.appspot.com/https://github.com/MaharajSanthir/portfolio/blob/master/AspNetCsharp/WebServerControls/doglot.aspx.cs"></script>
+    <script src="http://gist-it.appspot.com/https://github.com/MaharajSanthir/csharp_exercises/blob/master/csharp_exercises/int422/doglot.aspx.cs"></script>
 </asp:Content>

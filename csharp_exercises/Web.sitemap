@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="Home" description="Home" url="~/default.aspx">
+    
+    <siteMapNode url="" title="INT422 - In Class Exercises"  description="">
+      <siteMapNode url="" title="C# Types and Operations"  description="">
+          <siteMapNode url="int422/chicken.aspx" title="Add Chichen Eggs"  description="" />
+          <siteMapNode url="int422/add.aspx" title="Double Value Addition"  description="" />
+          <siteMapNode url="int422/addmul.aspx" title="Addition or Multiplication"  description="" />
+          <siteMapNode url="int422/Conversion.aspx" title="Temperature Conversion"  description="" />
+          <siteMapNode url="int422/carpet.aspx" title="Carpet Price"  description="" />
+          <siteMapNode url="int422/phone.aspx" title="Phone Price Tax"  description="" />
+          <siteMapNode url="int422/hours.aspx" title="Work Hours Pay"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="C# if else statements"  description="">
+        <siteMapNode url="int422/iq.aspx" title="IQ Level"  description="" />
+        <siteMapNode url="int422/doglot.aspx" title="Barking Lot Fees"  description="" />
+        <siteMapNode url="int422/woodsign.aspx" title="House Sign Prices"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="C# Switch statement"  description="">
+        <siteMapNode url="int422/numForWeek.aspx" title="Number Weekday"  description="" />
+        <siteMapNode url="int422/YogaStudio.aspx" title="Yoga Class Names"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="C# Loops"  description="">
+        <siteMapNode url="int422/loops.aspx" title="Loops Behaviours"  description="" />
+        <siteMapNode url="int422/yaleauction.aspx" title="Yale Online Auctions"  description="" />
+      </siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode url="" title="Self Study"  description="">
+      <siteMapNode url="" title="C# Arrays"  description="">
+        <siteMapNode url="selfStudy/array.aspx" title="Random Number Index"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title=" C# References"  description="">
+        <siteMapNode url="selfStudy/generalstructure.aspx" title="General Structure"  description="" />
+        <siteMapNode url="selfStudy/codingconventions.aspx" title="Coding Conventions"  description="" />
+        
+      </siteMapNode>
+     
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

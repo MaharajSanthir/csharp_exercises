@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/WebServerControls.master" CodeBehind="codingconventions.aspx.cs" Inherits="WebServerControls.codingconventions" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.master" CodeBehind="codingconventions.aspx.cs" Inherits="WebServerControls.codingconventions" %>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="head" Runat="Server">
    
@@ -13,5 +13,5 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CodeWindow" Runat="Server">
-
+  
 </asp:Content>

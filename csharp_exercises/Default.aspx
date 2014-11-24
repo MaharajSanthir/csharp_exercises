@@ -1,16 +1,13 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebServerControls.Default" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    <a href="int422/int422.aspx">INT422</a>
-    </div>
-    </form>
-</body>
-</html>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="csharp_exercises.Defaults" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="Main" runat="server">
+        <p>
+        <b>INT422 - Internet 3 - Web Programming on Windows</b><br />
+        Class taken at Seneca College @ York University<br /><br />
+        This application links all the exercises completed at class.
+    </p>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="CodeWindow" runat="server">
+    Source codes for the execises will appear here.
+</asp:Content>

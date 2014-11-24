@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/WebServerControls.master" CodeBehind="numForWeek.aspx.cs" Inherits="WebServerControls.numForWeek" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.master" CodeBehind="numForWeek.aspx.cs" Inherits="WebServerControls.numForWeek" %>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="head" Runat="Server">
    
@@ -26,5 +26,5 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CodeWindow" Runat="Server">
-    <script src="http://gist-it.appspot.com/https://github.com/MaharajSanthir/portfolio/blob/master/AspNetCsharp/WebServerControls/numForWeek.aspx.cs"></script>
+    <script src="http://gist-it.appspot.com/https://github.com/MaharajSanthir/csharp_exercises/blob/master/csharp_exercises/int422/numForWeek.aspx.cs"></script>
 </asp:Content>

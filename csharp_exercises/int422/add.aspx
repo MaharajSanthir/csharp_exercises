@@ -20,5 +20,5 @@
         The result is: <asp:Label ID="lblResult" runat="server"></asp:Label>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CodeWindow" Runat="Server">
-    <script src="http://gist-it.appspot.com/https://github.com/MaharajSanthir/portfolio/blob/master/AspNetCsharp/WebServerControls/add.aspx.cs"></script>
+    <script src="http://gist-it.appspot.com/https://github.com/MaharajSanthir/csharp_exercises/blob/master/csharp_exercises/int422/add.aspx.cs"></script>
 </asp:Content>
