@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebServerControls {
+namespace csharp_exercises {
     
     
-    public partial class WebServerControls {
+    public partial class Site {
         
         /// <summary>
         /// head control.
